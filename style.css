@@ -27,8 +27,56 @@ body{
     margin: 5px; /* Add some space between thumbnails */
 }
 
+.table{
+    border: 3px;
+    color: blue;
+    text-align: center;
+    border: 3px solid brown;
+    width: auto;
+}
 
+.table th{
+    background-color: aquamarine;
+}
+.table td,th{
+    border: 1px;
+    text-align: center;
+    
+}
+td:hover{
+    background-color: rgb(190, 190, 192);
+}
+.success{
+    background-color: rgb(125, 241, 225);
+    color: black;
+}
 
+.btn-success:hover{
+    color: blue;
+    background-color: lightgreen;
+    border-color: cyan;
+}
 
-
-
+.alert{
+    border-radius: 0%;
+    margin: 5%;
+    padding: 1px 6px;
+    background-color: green;
+}
+.alert:hover{
+    color: rgb(245, 126, 0);
+    border-color: rgb(0, 0,0);
+}
+.alert{
+    color: black;
+}
+.danger{
+    border-radius: 0%;
+    margin: 25%;
+    padding: 1px 6px;
+    background-color: red;
+}
+.danger:hover{
+    color: rgb(245, 145, 0);
+    border-color: rgb(0, 0,0);
+}
