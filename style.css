@@ -28,24 +28,31 @@ body{
 }
 
 .table{
-    border: 3px;
-    color: blue;
-    text-align: center;
-    border: 3px solid brown;
-    width: auto;
+    border: 10px solid black;
+    margin: auto;
+    text-align: left;
+    border-collapse:collapse ;
+    border-spacing: 0;
 }
 
-.table th{
-    background-color: aquamarine;
-}
-.table td,th{
-    border: 1px;
-    text-align: center;
-    
-}
 td:hover{
-    background-color: rgb(190, 190, 192);
-}
+
+    background-color: blue;
+   
+   }
+     
+.table, th, td {
+   
+   border: 1px solid;
+   
+   }
+   
+.table td{
+   
+   background-color: lightpink;
+   
+   }
+   
 .success{
     background-color: rgb(125, 241, 225);
     color: black;
