@@ -3,16 +3,35 @@
 <head>
     <title>A Beautiful City </title>
     
-    <link rel="stylesheet" href="style.css">
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="cities.html">A Some Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="basic.html">basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html">advanced</a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
     <h1>Visit cities with Ujwal</h1>
     <div class="container">
         <div class="row">
@@ -124,6 +143,67 @@
         <button type="button" class="danger">A</button>
         </div>
       </div>
+      
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">basic</a></li>
+          <li><a class="dropdown-item" href="advanced.html">advanced</a></li>
+          
+        </ul>
+      </div>
+    <br>
+    <br>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">City</label>
+        <input type="text" class="form-control" placeholder="Enter the City">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">Sign up for newsletter</label>
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <button class=" btn btn-primary" type="submit">Submit</button>
+    </form>
+    <br>
+    <div class="card" style="width: 18rem;" margin="2rem">
+      <img src="Image 1.jpg" alt="Image 1">
+      <div class="card-body">
+        <h5 class="card-title">Valencia</h5>
+        <p class="card-text">Its also known for its stunning beaches, modern architecture, and lively cultural scene.</p>
+        <button class="btn btn-info" type="button">
+          <a href="https://en.wikipedia.org/wiki/Valencia">Valencia(City-1)</a>
+        </button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;" margin="2rem">
+      <img src="Image 2.jpg" alt="Image 2">
+      <div class="card-body">
+        <h5 class="card-title">Atlanta</h5>
+        <p class="card-text">This is alspo known for its rich civil rights history, diverse culture, and bustling business district</p>
+        <button class="btn btn-info" type="button">
+          <a href="https://en.wikipedia.org/wiki/Atlnata">Atlanta(City-2)</a>
+        </button>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;" margin="1rem">
+          <img src="Image 3.jpg" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">San Francisco</h5>
+            <p class="card-text">It's a hub of technology and innovation, and features diverse neighborhoods like 
+              Chinatown and the historic Fisherman's Wharf.</p>
+            <button class="btn btn-info" type="button">
+              <a href="https://en.wikipedia.org/wiki/San Francisco">San Francisco(City-3)</a>
+            </button>
+            </div>
+            </div>
       
 
 </body>
